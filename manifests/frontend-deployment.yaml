@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
-  namespace: cloudchamp
+  namespace: saran
   labels:
     role: frontend
     env: demo
